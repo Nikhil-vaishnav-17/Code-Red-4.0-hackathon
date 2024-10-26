@@ -1,0 +1,112 @@
+.container-main {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Project Image */
+.project-image {
+    max-height: 250px;
+    max-width: 250px;
+    width: 100%;
+    border: 2px solid #2E8B57;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Project Details */
+.project-details {
+    flex-grow: 1;
+}
+
+/* Voting Buttons */
+.voting-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.voting-buttons button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.btn-upvote {
+    background-color: #388E3C;
+    border: 1px solid #2E7D32;
+}
+.btn-upvote:hover {
+    background-color: #2E7D32;
+}
+.btn-downvote {
+    background-color: #D32F2F;
+    border: 1px solid #C62828;
+}
+.btn-downvote:hover {
+    background-color: #C62828;
+}
+.btn-contribute {
+    background-color: #0288D1;
+    border: 1px solid #0277BD;
+}
+.btn-contribute:hover {
+    background-color: #0277BD;
+}
+
+/* Discussion Section */
+.discussion-section {
+background-color: #ffffff;
+padding: 15px;
+border-radius: 8px;
+max-height: 250px;
+overflow-y: auto;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+margin-top: 20px; /* Adjust as needed for spacing */
+}
+
+
+.comment {
+    border-bottom: 1px solid #E0E0E0;
+    padding: 10px 0;
+}
+
+/* Add Comment Section */
+.add-comment-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.add-comment-box textarea {
+    height: 150px;
+    resize: none;
+    border: 1px solid #cfcfcf;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.submit-comment-btn {
+    align-self: flex-end;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.submit-comment-btn:hover {
+    background-color: #388E3C;
+}

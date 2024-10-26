@@ -1,0 +1,45 @@
+.card-container {
+    display: flex;
+    /* Use flexbox to arrange cards in a column */
+    flex-direction: column;
+    /* Stack cards vertically */
+    align-items: center;
+    /* Center align cards horizontally */
+    max-width: 300px;
+    /* Limit maximum width of the container */
+    margin: 40px auto;
+    /* Add margin and center the container */
+}
+
+.card {
+    background-color: #93a4a2;
+    /* Set background color of each card */
+
+    padding: 20px;
+    /* Add padding to each card */
+    margin-bottom: 20px;
+    /* Add margin between cards */
+    border: 1px solid #ddd;
+    /* Add border to each card */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add box shadow to each card */
+}
+
+.card:hover {
+    background-color: #687775;
+}
+
+.card h2 {
+    font-weight: bold;
+    /* Make card title bold */
+    margin-top: 0;
+    /* Remove top margin from card title */
+}
+
+.card p {
+    font-size: 20px;
+    /* Set font size of card content */
+    color: #092724;
+    /* Set text color of card content */
+}
+

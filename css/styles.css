@@ -1,0 +1,19 @@
+/* Hero Section */
+.hero-section {
+    background: url('../assets/hero-image.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 150px 0;
+}
+
+.hero-section h1, .hero-section p {
+    color: #fff;
+}
+
+/* Project Cards */
+#projects .card {
+    transition: transform 0.2s;
+}
+
+#projects .card:hover {
+    transform: scale(1.05);
+}
