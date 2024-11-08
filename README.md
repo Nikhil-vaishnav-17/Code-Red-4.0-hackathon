@@ -26,7 +26,7 @@ CREATE TABLE projects (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
     description TEXT NOT NULL,
-    creator VARCHAR(255) NOT NULL,
+    creator VARCHAR(255) NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     upvotes INT DEFAULT 0,
     downvotes INT DEFAULT 0,
